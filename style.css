@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* 🟣 TELAS */
+.tela {
+  display: none;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.tela.ativa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 📱 Tela Inicial */
+#tela-inicial {
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#tela-inicial h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: white;
+  line-height: 1.2;
+}
+
+#tela-inicial h1 span {
+  color: #22d3ee;
+  font-size: 2.8rem;
+}
+
+#tela-treinos h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: white;
+  line-height: 1.2;
+}
+
+#tela-treinos h1 span {
+  color: #22d3ee;
+  font-size: 2.8rem;
+}
+
+.tags-flutuantes {
+  position: relative;
+  margin-top: 20px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin: 5px;
+  color: #000;
+  font-weight: 600;
+  transform: rotate(-5deg);
+}
+
+.tag.amarela { background: #f0c402; }
+.tag.rosa { background: #f472b6; }
+.tag.verde { background: #a3e635; }
+
+#btnComecar {
+  background: #c084fc;
+  color: #fdfcfc;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 25px;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+
+#btnComecar:hover {
+  transform: scale(1.05);
+}
+
+/* 🏋️ Tela Treinos */
+#tela-treinos header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.lista-treinos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.exercicio {
+  background: rgba(255, 255, 255, 0.1);
+  margin: -1px 0;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+/* 📸 MODAL */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-box {
+  background: white;
+  color: #000;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 300px;
+  width: 80%;
+  position: relative;
+}
+
+.modal-box img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.fechar {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.grade-treinos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.treino-card {
+  background: linear-gradient(135deg, #f472b6);
+  padding: 25px 0;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+}
+
+.treino-card:hover {
+  transform: scale(1.05);
+}
+
+.btn-voltar {
+  position: fixed;
+  bottom: 95px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #c084fc);
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+}
+
+.btn-voltar:hover {
+  transform: translateX(-50%) scale(1.05);
+}
+
+#detalhe-info-texto {
+font-size: 20px;
+font-weight: 600;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.detalhe-info img {
+  width: 100%;       
+  height: 200px;    
+  object-fit: cover; 
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}

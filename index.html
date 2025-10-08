@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>QUAL EXERCÍCIO AGORA?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 🟣 Tela Inicial -->
+  <section id="tela-inicial" class="tela ativa">
+    <h1>QUAL <br><span>EXERCÍCIO</span><br> AGORA?</h1>
+    <div class="tags-flutuantes">
+      <div class="tag amarela">#BoraTreinar</div>
+      <div class="tag rosa">#MagrasMagras</div>
+      <div class="tag verde">#FocoNoShape</div>
+    </div>
+    <button id="btnComecar">Começar</button>
+  </section>
+
+  <!-- 🏋️ Tela Treinos -->
+  <section id="tela-treinos" class="tela">
+    <header>
+      <h1>ESCOLHA <br><span>SEU</span><br> TREINO</h1>
+    </header>
+    <div class="grade-treinos">
+      <div class="treino-card" data-treino="A"><h3>A</h3></div>
+      <div class="treino-card" data-treino="B"><h3>B</h3></div>
+      <div class="treino-card" data-treino="C"><h3>C</h3></div>
+      <div class="treino-card" data-treino="D"><h3>D</h3></div>
+    </div>
+    <button class="btn-voltar" id="voltar-treinos">← Voltar</button>
+  </section>
+
+  <!-- 📝 Tela Exercícios -->
+  <section id="tela-exercicios" class="tela">
+    <header>
+      <h2 id="titulo-treino">X</h2>
+    </header>
+    <div id="lista-exercicios" class="lista-treinos">
+      <!-- Os cards de exercício serão criados pelo JS -->
+    </div>
+    <button class="btn-voltar" id="voltar-exercicios">← Voltar</button>
+  </section>
+
+  <!-- 🏋️ Tela Detalhe do Exercício -->
+   <section id="tela-detalhe" class="tela">
+     <header>
+        <h2 id="detalhe-nome">Exercício</h2>
+     </header>
+     <div class="detalhe-info">
+        <p id="detalhe-info-texto"></p>
+        <img id="detalhe-img" src="" alt="Exercício">
+     </div>
+     <button class="btn-voltar" id="voltar-detalhe">← Voltar</button>
+   </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
