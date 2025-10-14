@@ -17,22 +17,13 @@ const treinos = {
     { nome: "Bi set: Elevação lateral + frontal", info: "3x15 cada", img: "img/elevacao_lateral.jpg" },
     { nome: "Tríceps máquina", info: "3x15", img: "img/triceps.jpg" }
   ],
-  C: [
+  Alongamento: [
     { nome: "Agachamento livre", info: "3x15", img: "img/agachamento_livre.jpg" },
     { nome: "Agachamento hack", info: "4x15", img: "img/hack.jpg" },
     { nome: "Leg press 45", info: "4x12", img: "img/legpress.jpg" },
     { nome: "Cadeira extensora", info: "4x12", img: "img/extensora.jpg" },
     { nome: "Afundo", info: "3x15", img: "img/afundo.jpg" },
     { nome: "Supra solo", info: "3x20", img: "img/supra.jpg" }
-  ],
-  D: [
-    { nome: "Pulley costas", info: "4x12", img: "img/pulley.jpg" },
-    { nome: "Remada fechada", info: "4x12", img: "img/remada.jpg" },
-    { nome: "Face pull", info: "4x10-12", img: "img/facepull.jpg" },
-    { nome: "Voador inverso", info: "4x12", img: "img/voador.jpg" },
-    { nome: "Rosca direta halteres", info: "3x12", img: "img/rosca_direta.jpg" },
-    { nome: "Rosca martelo", info: "3x12", img: "img/martelo.jpg" },
-    { nome: "Supra bola", info: "3x15", img: "img/supra_bola.jpg" }
   ]
 };
 
