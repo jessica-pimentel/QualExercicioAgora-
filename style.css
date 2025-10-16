@@ -160,7 +160,6 @@ body {
 
 .grade-treinos {
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
   gap: 10px;
   width: 18%;
   margin: 0 auto;
