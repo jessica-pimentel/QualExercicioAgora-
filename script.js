@@ -1,32 +1,3 @@
-// --- Dados dos Treinos ---
-const treinos = {
-  A: [
-    { nome: "Terra sumô halter", info: "3x15", img: "img/terra.jpg" },
-    { nome: "Cadeira flexora", info: "4x15", img: "img/flexora.jpg" },
-    { nome: "Mesa flexora", info: "3x10-12", img: "img/mesa.jpg" },
-    { nome: "Elevação pélvica", info: "3x12", img: "img/pelvica.jpg" },
-    { nome: "Cadeira abdutor", info: "4x12", img: "img/abdutor.jpg" },
-    { nome: "Glúteo cross", info: "4x12", img: "img/gluteo.jpg" },
-    { nome: "Lombar máquina", info: "3x12", img: "img/lombar.jpg" }
-  ],
-  B: [
-    { nome: "Supino reto halter", info: "4x12", img: "img/supino_reto.jpg" },
-    { nome: "Supino inclinado halter", info: "4x12", img: "img/supino_inclinado.jpg" },
-    { nome: "Supino declinado", info: "3x10-12", img: "img/supino_declinado.jpg" },
-    { nome: "Desenvolvimento máquina", info: "3x15", img: "img/desenvolvimento.jpg" },
-    { nome: "Bi set: Elevação lateral + frontal", info: "3x15 cada", img: "img/elevacao_lateral.jpg" },
-    { nome: "Tríceps máquina", info: "3x15", img: "img/triceps.jpg" }
-  ],
-  Alongamento: [
-    { nome: "Agachamento livre", info: "3x15", img: "img/agachamento_livre.jpg" },
-    { nome: "Agachamento hack", info: "4x15", img: "img/hack.jpg" },
-    { nome: "Leg press 45", info: "4x12", img: "img/legpress.jpg" },
-    { nome: "Cadeira extensora", info: "4x12", img: "img/extensora.jpg" },
-    { nome: "Afundo", info: "3x15", img: "img/afundo.jpg" },
-    { nome: "Supra solo", info: "3x20", img: "img/supra.jpg" }
-  ]
-};
-
 // --- Navegação entre telas ---
 const telas = {
   inicial: document.getElementById('tela-inicial'),
