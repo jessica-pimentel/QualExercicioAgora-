@@ -217,3 +217,39 @@ align-items: center;
   display: block;
   margin: 10px auto;
 }
+
+.rep-box {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.rep-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  background: rgba(255,255,255,0.2);
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.rep-btn.checked {
+  background: #90bb7f;
+  color: rgb(255, 255, 255);
+  border-color: #90bb7f;
+  transform: scale(1.1);
+}
+
+.lista-exercicios {
+  display: grid;
+  gap: 12px;
+  width: 100%;
+  max-width: 500px; /* Mantém alinhado no centro */
+  margin: 0 auto;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
