@@ -160,8 +160,9 @@ body {
 
 .grade-treinos {
   display: grid;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
-  width: 18%;
   margin: 0 auto;
 }
 
@@ -176,6 +177,7 @@ body {
   color: white;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   transition: transform 0.2s;
+  width: 250px;
 }
 
 .treino-card:hover {
