@@ -27,7 +27,7 @@ const treinos = {
   ],
   D: [
     { nome: "Abdução quadril 0º banco reclinado (band)", rep: 3, info: "18-20", img: "img/D/abducao_quadril_banco.png" },
-    { nome: "Elevação pélvica solo com step (barra)", info: "3 x 20(pico contração 2s em cima)", img: "img/D/elevacao_pelvica_solo.png" },
+    { nome: "Elevação pélvica solo com step (barra)", rep: 3, info: "20(pico contração 2s em cima)", img: "img/D/elevacao_pelvica_solo.png" },
     { nome: "Cadeira extensora", rep: 3, info: "12-15", img: "img/B/cadeira_extensora.png" },
     { nome: "Leg Press 45° (linear)", rep: 3, info: "12-15", img: "img/D/leg_press.png" },
     { nome: "Step down frontal unilateral (step)", rep: 3, info: "10-12", img: "img/D/step_down.png" },
