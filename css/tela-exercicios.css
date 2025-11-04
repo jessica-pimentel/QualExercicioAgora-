@@ -1,0 +1,17 @@
+.lista-exercicios {
+  display: grid;
+  gap: 12px;
+  width: 100%;
+  max-width: 500px; 
+  margin: 0 auto;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.exercicio {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 4px 0;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}

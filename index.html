@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <title>QUAL EXERCÍCIO AGORA?</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/tela-inicial.css">
+  <link rel="stylesheet" href="css/tela-treinos.css">
+  <link rel="stylesheet" href="css/tela-exercicios.css">
+  <link rel="stylesheet" href="css/tela-detalhe.css">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
   <!-- 🟣 Tela Inicial -->
@@ -26,11 +32,21 @@
       <h1>TREINO</h1>
     </header>
     <div class="grade-treinos">
-      <div class="treino-card" data-treino="Alongamento"><h3>Alongamento</h3></div>
-      <div class="treino-card" data-treino="A"><h3>Treino A</h3></div>
-      <div class="treino-card" data-treino="B"><h3>Treino B</h3></div>
-      <div class="treino-card" data-treino="C"><h3>Treino C</h3></div>
-      <div class="treino-card" data-treino="D"><h3>Treino D</h3></div>
+      <div class="treino-card" data-treino="Alongamento">
+        <h3>Alongamento</h3>
+      </div>
+      <div class="treino-card" data-treino="A">
+        <h3>Treino A</h3>
+      </div>
+      <div class="treino-card" data-treino="B">
+        <h3>Treino B</h3>
+      </div>
+      <div class="treino-card" data-treino="C">
+        <h3>Treino C</h3>
+      </div>
+      <div class="treino-card" data-treino="D">
+        <h3>Treino D</h3>
+      </div>
     </div>
     <button class="btn-voltar" id="voltar-treinos">← Voltar</button>
   </section>
@@ -43,24 +59,30 @@
     <div id="lista-exercicios" class="lista-treinos">
     </div>
     <div id=btn-voltar-container>
-    <button class="btn-voltar" id="voltar-exercicios">← Voltar</button>
+      <button class="btn-voltar" id="voltar-exercicios">← Voltar</button>
     </div>
   </section>
 
   <!-- 🏋️ Tela Detalhe do Exercício -->
-   <section id="tela-detalhe" class="tela">
-     <header>
-        <h2 id="detalhe-nome">Exercício</h2>
-     </header>
-     <div class="detalhe-info">
-        <p id="detalhe-info-texto"></p>
-        <img id="detalhe-img" src="" alt="Exercício">
-     </div>
-     <div id="rep-container" class="rep-box"></div>
-     <button class="btn-voltar" id="voltar-detalhe">← Voltar</button>
-   </section>
+  <section id="tela-detalhe" class="tela">
+    <header>
+      <h2 id="detalhe-nome">Exercício</h2>
+    </header>
+    <div class="detalhe-info">
+      <p id="detalhe-info-texto"></p>
+      <img id="detalhe-img" src="" alt="Exercício">
+    </div>
+    <div id="rep-container" class="rep-box"></div>
+    <button class="btn-voltar" id="voltar-detalhe">← Voltar</button>
+  </section>
 
-  <script src="script.js"></script>
+  <script src="js/banco.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/tela-inicial.js"></script>
+  <script src="js/tela-treinos.js"></script>
+  <script src="js/tela-exercicios.js"></script>
+  <script src="js/tela-detalhe.js"></script>
   <script src="banco.js"></script>
 </body>
+
 </html>
