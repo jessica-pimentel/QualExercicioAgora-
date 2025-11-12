@@ -1,0 +1,19 @@
+{
+  "name": "qualexercicio",
+  "version": "1.0.0",
+  "description": "1. Acesse o link: 👉 [QualExercícioAgora?](https://jessica-pimentel.github.io/QualExercicioAgora-/)  \r 2. Selecione qual treino do dia\r 3. Clique no exercício que quer ver a imagem de como fazer\r ---",
+  "main": "banco.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "sqlite3": "^5.1.7"
+  }
+}

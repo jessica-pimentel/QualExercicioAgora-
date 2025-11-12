@@ -6,10 +6,10 @@
   <title>QUAL EXERCÍCIO AGORA?</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="core/base.css">
-  <link rel="stylesheet" href="tela-inicial/tela-inicial.css">
-  <link rel="stylesheet" href="tela-treinos/tela-treinos.css">
-  <link rel="stylesheet" href="tela-exercicios/tela-exercicios.css">
-  <link rel="stylesheet" href="tela-detalhe/tela-detalhe.css">
+  <link rel="stylesheet" href="public/tela-inicial/tela-inicial.css">
+  <link rel="stylesheet" href="public/tela-treinos/tela-treinos.css">
+  <link rel="stylesheet" href="public/tela-exercicios/tela-exercicios.css">
+  <link rel="stylesheet" href="public/tela-detalhe/tela-detalhe.css">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 
@@ -58,6 +58,9 @@
     </header>
     <div id="lista-exercicios" class="lista-treinos">
     </div>
+    <div class="add-exercicio-container">
+      <button id="btn-add-exercicio" class="btn-add">+ Adicionar exercício</button>
+    </div>
     <div id=btn-voltar-container>
       <button class="btn-voltar" id="voltar-exercicios">← Voltar</button>
     </div>
@@ -76,12 +79,35 @@
     <button class="btn-voltar" id="voltar-detalhe">← Voltar</button>
   </section>
 
+  <div id="modal-add" class="modal">
+    <div class="modal-content">
+      <h3>Adicionar novo exercício</h3>
+
+      <label>Nome:</label>
+      <input id="novo-nome" type="text" placeholder="Ex: Agachamento livre">
+
+      <label>Séries:</label>
+      <input id="novo-rep" type="text" placeholder="Ex: 3">
+
+      <label>Repetições:</label>
+      <input id="novo-info" type="text" placeholder="Ex: 12">
+
+      <label>Imagem:</label>
+      <input id="novo-img" type="file" accept="image/*">
+
+      <div class="modal-buttons">
+        <button id="salvar-exercicio">Salvar</button>
+        <button id="cancelar-exercicio" class="cancelar">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
   <script src="core/core.js"></script>
-  <script src="tela-inicial/tela-inicial.js"></script>
-  <script src="tela-treinos/tela-treinos.js"></script>
-  <script src="tela-exercicios/tela-exercicios.js"></script>
-  <script src="tela-detalhe/tela-detalhe.js"></script>
   <script src="banco.js"></script>
+  <script src="public/tela-inicial/tela-inicial.js"></script>
+  <script src="public/tela-treinos/tela-treinos.js"></script>
+  <script src="public/tela-exercicios/tela-exercicios.js"></script>
+  <script src="public/tela-detalhe/tela-detalhe.js"></script>
 </body>
 
 </html>

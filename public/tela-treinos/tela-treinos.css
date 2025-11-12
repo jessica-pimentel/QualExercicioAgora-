@@ -1,0 +1,30 @@
+#tela-treinos header{
+  margin-bottom:10px;
+  text-align:center;
+}
+
+.grade-treinos {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.treino-card {
+  background: linear-gradient(135deg, #f472b6);
+  padding: 25px 0;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+  width: 250px;
+}
+
+.treino-card:hover {
+  transform: scale(1.05);
+}
