@@ -5,3 +5,9 @@
 3. Clique no exercício que quer ver a imagem de como fazer
 ---
 
+## Features sendo feitas na branch dev-v2:
+1. Opção de adicionar exercício
+2. Edição de exercício
+3. Exclusão de exercício
+4. Login para criar diferentes treinos por pessoa
+
